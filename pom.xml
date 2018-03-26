@@ -24,12 +24,12 @@
     <repository>
         <id>central</id>
         <name>local-releases</name>
-        <url>http://localhost:8080/artifactory/maven_central</url>
+        <url>http://localhost:8081/artifactory/maven_central</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>local-snapshots</name>
-        <url>http://localhost:8080/artifactory/demo-snapshot-local</url>
+        <url>http://localhost:8081/artifactory/demo-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
   <build>
