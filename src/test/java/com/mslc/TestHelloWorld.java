@@ -26,7 +26,7 @@ public class TestHelloWorld {
 	   public void testHelloWorld() 
 	   {
 	      h.setName("World");
-	      assertEquals(h.getName(),"WOrld");
+	      assertEquals(h.getName(),"World");
 	      assertEquals(h.getMessage(),"Hello World!");
 	   }
 }
